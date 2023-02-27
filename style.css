@@ -2,4 +2,65 @@
   --coffee-color: #221518;
   --cream-color: #f7e1bc;
   --chocolate-color: #54372b;
+  --orange-color: #ff902b;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--coffee-color);
+  color: var(--cream-color);
+  padding: 30px;
+  /* position: fixed;
+  width: 100%; */
+}
+
+.navbar ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  list-style-type: none;
+  font-size: 20px;
+}
+
+.titleCoffee {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+}
+
+.subtitle-coffee {
+  background-color: var(--chocolate-color);
+  color: var(--cream-color);
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 100vh;
+  gap: 10%;
+  text-transform: uppercase;
+}
+
+.subText {
+  display: flex;
+  flex-direction: column;
+  gap: 10%;
+  margin-top: -10%;
+  margin-left: -50%;
+}
+
+.coffeeImg {
+  position: absolute;
+  padding-top: 0;
+  margin-right: -36.6%;
+  width: 63.4%;
 }
