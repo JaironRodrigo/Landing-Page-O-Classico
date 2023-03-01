@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Tilt+Prism&display=swap");
+
 :root {
   --coffee-color: #221518;
   --cream-color: #f7e1bc;
@@ -18,44 +20,110 @@
   background-color: var(--coffee-color);
   color: var(--cream-color);
   padding: 30px;
-  /* position: fixed;
-  width: 100%; */
 }
 
 .navbar ul {
+  background-color: #7c573c;
+  width: 38%;
+  padding: 50px;
+  border-bottom-left-radius: 40px;
+  margin-bottom: -2%;
+  margin-right: -3%;
+  margin-top: -2%;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   gap: 20px;
   list-style-type: none;
   font-size: 20px;
+  font-family: "Lobster";
 }
 
 .titleCoffee {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 25px;
+  font-size: 35px;
+  font-family: "Tilt Prism";
+  font-weight: 700;
+}
+
+.navAnchor {
+  text-decoration: none;
+  color: var(--cream-color);
+}
+
+.btnNav {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.btnNav img {
+  width: 20px;
+}
+
+.btnCart {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.navInput {
+  font-size: 20px;
+  width: 150px;
+  background-color: var(--coffee-color);
+  color: var(--cream-color);
+  outline: none;
 }
 
 .subtitle-coffee {
-  background-color: var(--chocolate-color);
-  color: var(--cream-color);
+  background-color: var(--coffee-color);
+  color: var(--orange-color);
   font-size: 30px;
   display: flex;
   align-items: center;
   justify-content: space-around;
   height: 100vh;
   gap: 10%;
-  text-transform: uppercase;
+  font-family: "Tilt Prism";
+  font-weight: 700;
 }
 
 .subText {
   display: flex;
   flex-direction: column;
+  position: absolute;
+  text-transform: uppercase;
   gap: 10%;
   margin-top: -10%;
-  margin-left: -50%;
+  margin-left: -40%;
+}
+
+.btnCatalog {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--chocolate-color);
+  width: 100px;
+  padding: 20px;
+  padding-left: 100px;
+  padding-right: 100px;
+  text-align: center;
+  font-family: "Lobster";
+  font-size: 40px;
+  border-radius: 30px;
+  border: 10px ridge var(--orange-color);
+  color: var(--cream-color);
+  position: absolute;
+  margin-top: 20%;
+  margin-left: 40%;
+  cursor: pointer;
+}
+
+.btnCatalog:hover {
+  background-color: var(--cream-color);
+  color: var(--coffee-color);
 }
 
 .coffeeImg {
@@ -63,4 +131,13 @@
   padding-top: 0;
   margin-right: -36.6%;
   width: 63.4%;
+}
+
+.grainImg {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin-right: 40%;
+  margin-top: -3%;
+  position: inherit;
 }
