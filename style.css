@@ -20,6 +20,7 @@
   background-color: var(--coffee-color);
   color: var(--cream-color);
   padding: 30px;
+  padding-right: 0;
 }
 
 .navbar ul {
@@ -28,7 +29,6 @@
   padding: 50px;
   border-bottom-left-radius: 40px;
   margin-bottom: -2%;
-  margin-right: -3%;
   margin-top: -2%;
   display: flex;
   align-items: center;
@@ -140,4 +140,86 @@
   margin-right: 40%;
   margin-top: -3%;
   position: inherit;
+}
+
+.section1 {
+  background-color: var(--cream-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.section1 h4 {
+  font-size: 40px;
+  font-family: "Tilt Prism";
+  color: var(--chocolate-color);
+  margin: 10px;
+  font-weight: 700;
+}
+
+.mainCard {
+  background-color: var(--cream-color);
+  color: var(--cream-color);
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: auto;
+  grid-column-gap: 5px;
+  justify-content: center;
+  align-items: center;
+  row-gap: 10px;
+  width: 90%;
+}
+
+.card {
+  background-color: #ffffff;
+  border: 15px solid #faecd3;
+  border-radius: 30px;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  justify-self: center;
+  justify-items: center;
+  width: 70%;
+  color: var(--coffee-color);
+  padding: 0.5rem;
+  gap: 15px;
+  margin-bottom: 5%;
+  box-shadow: 0 4px 8px 0 #000000;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 #000000;
+}
+
+.card img {
+  width: 100%;
+}
+
+.cardContent {
+  text-align: center;
+  font-size: 30px;
+  font-family: "Lobster";
+  font-weight: bold;
+  padding-top: 10px;
+  padding-bottom: 15px;
+}
+
+.cardContent button {
+  background-color: var(--chocolate-color);
+  width: 100px;
+  margin-top: 15px;
+  padding: 10px;
+  font-size: 15px;
+  font-family: "Lobster";
+  font-weight: bold;
+  color: var(--cream-color);
+  border: 5px ridge var(--orange-color);
+  cursor: pointer;
+}
+
+.cardContent button:hover {
+  background-color: var(--cream-color);
+  color: var(--chocolate-color);
 }
