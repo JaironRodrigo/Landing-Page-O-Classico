@@ -361,3 +361,40 @@
 .newsletter h4 {
   font-size: 40px;
 }
+
+.section6 {
+  background-color: var(--coffee-color);
+  color: var(--cream-color);
+  padding-bottom: 20px;
+}
+.section6 h4 {
+  font-family: "Lobster";
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.section6 ul {
+  background-color: var(--chocolate-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style-type: none;
+  width: 16.5%;
+  margin: 20px;
+  margin-left: 41.5%;
+  border: 10px ridge var(--orange-color);
+}
+
+.section6 img {
+  width: 40px;
+  margin: 20px;
+}
+.section6 button {
+  background-color: var(--chocolate-color);
+  border: 8px ridge var(--chocolate-color);
+  cursor: pointer;
+}
+.section6 button:hover {
+  border: 8px ridge #7c573c;
+  background-color: #7c573c;
+}
