@@ -398,3 +398,15 @@
   border: 8px ridge #7c573c;
   background-color: #7c573c;
 }
+
+.footer {
+  background-color: var(--chocolate-color);
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Lobster";
+  color: var(--cream-color);
+  font-size: 20px;
+  border-top: 8px ridge var(--orange-color);
+}
